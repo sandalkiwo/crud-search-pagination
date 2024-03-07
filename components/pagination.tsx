@@ -43,7 +43,7 @@ const Pagination = ({totalPages}:{totalPages: number}) => {
         <div className={className}>{page}</div>
       ):(
         <Link href={href} className={className}>{page}</Link>
-      );
+      )
     };
 
     const PaginationArrow = ({
